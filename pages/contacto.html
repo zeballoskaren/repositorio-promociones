@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>PICARDEATE</title>
+        <!--Link favicon es para crear el icono de la web-->
+    <link rel="shortcut icon" href="img/6660091.png" type="image/x-icon">
+    </head>
+</head>
+<body>
+    <header class="header">
+       <img class="logotipo" src="../img/Picardeate.png" alt="logotipo">
+       
+        <nav> 
+            <ul class="listaInicio">
+                <li><a href="../index.html">Picardeate</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="regalos.html">Regalos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="card"> <!--Bloque-->
+<section class="container_grid">
+    <main>
+    <h1 class="colorNegro normalNegrita">¿Quiéres comunicarte con nosotros?</h1>
+    <p>Para acercarnos comentarios, inquietudes y adquirir información acerca de nuestros servicios y productos,dejamos a tu disposición este formulario. Completalo y en breve te responderemos.
+        ¡Muchas gracias!</p>
+
+        <form>
+            <fieldset class="recuadroFormulario">
+              <legend>Completá tus datos</legend>  
+              <div>
+              <label for="nombre"> Nombre y Apellido</label>
+              <input type="text" name="" id="nombre" placeholder="Nombre Completo" required>
+            </div>
+            <div>
+                <label for="correo">E-mail</label>
+                <input type="email" name="" id="correo" required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="" id="telefono" required>
+            </div>
+            <div>
+                <p>¿Prefieres que te enviemos info por wsp?</p>
+                <label for="si">Si</label>
+                <input type="radio" name="llamada" id="Si">
+
+                <label for="no">No</label>
+                <input type="radio" name="llamada" id="No">
+
+                <p>¿Prefieres que te enviemos info por correo electrónico?</p>
+                <label for="si">Si</label>
+                <input type="radio" name="llamada" id="Si">
+
+                <label for="no">No</label>
+                <input type="radio" name="llamada" id="No">
+            </div>
+            <input type="submit" value="Enviar información">
+            <input type="reset" value="Borrar contenido">
+            </fieldset>
+        </form>
+    </main>
+</section>
+
+    <h2 class="ubicacion">Nuestra ubicación</h2>
+    <div>
+        <iframe width="325" height="280" frameborder="0" src="https://www.bing.com/maps/embed?h=280&w=325&cp=-34.578033717906095~-58.46921682357788&lvl=16&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+        </iframe>
+        <div class="mapa">
+           <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=-34.578033717906095~-58.46921682357788&amp;sty=r&amp;lvl=16&amp;FORM=MBEDLD">Ver mapa más grande</a> &nbsp; | &nbsp;
+           <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=-34.578033717906095~-58.46921682357788&amp;sty=r&amp;lvl=16&amp;rtp=~pos.-34.578033717906095_-58.46921682357788____&amp;FORM=MBEDLD">Obtener indicaciones</a>
+       </div>
+   </div>
+
+
+   <footer id="final">
+    <a class="logotipoFace" href="https://www.facebook.com/piccadely">
+    <img class="logotipoFace" src="img/facebook-brands.svg" alt="">
+    <p class="mR"> PICARDEATE ®</p>
+</footer>
+</body>
+</html>
