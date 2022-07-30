@@ -1,10 +1,12 @@
 html, body { 
     height: 100%; 
 }
+
 html{
     background-image: linear-gradient(to right, brown 20%, black 100%);
     background-size:contain;
 } 
+
 /* el asterisco es obligatorio para dar margen y relleno al medio de la pagin */
 #lapicadanosune{
     background-repeat:no-repeat;
@@ -52,9 +54,11 @@ html{
     margin: auto;
 }
 .card__imagen{
-    display:inline-block;
-    width: 480px;
-    height: 480px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 340px;
+    height: 340px;
     margin: 5px 50px;
     border-style:dashed;
     border-color: rgb(231, 231, 87);
@@ -348,7 +352,7 @@ footer{
 .texto_fiambres1{
     color: rgb(231, 231, 87);
     font-size: 15px;
-    text-align: center;
+    text-align:start;
     font-weight: bolder;
     border-width: 5px;
 }
@@ -367,9 +371,9 @@ footer{
 
 
 .foto_fiambres1:hover{
-width: 300px;
-height: 300px;
-}
+    width: 300px;
+    height: 300px;
+    }
 
 .card_fiambres1{
     display: flex;
@@ -407,6 +411,17 @@ height: 300px;
     animation-name: diadelamigo;
     animation-duration: 10s;
     animation-delay: 0s;
+}
+
+.foto_regalos {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-style:dashed;
+    border-color: rgb(246, 255, 113);
+    border-width: 5px;
+    align-items: center;
 }
 
 
