@@ -1,7 +1,3 @@
-html, body { 
-    height: 100%; 
-}
-
 html{
     background-image: linear-gradient(to right, brown 20%, black 100%);
     background-size:contain;
@@ -16,6 +12,11 @@ html{
 #final{
     background-image:url(../img/fondoheader.png);
     background-size: 100%;
+}
+
+.img-fluid{
+    max-width: 150px;
+    height: 150px;
 }
 
 
@@ -53,22 +54,27 @@ html{
     text-align:right;
     margin: auto;
 }
-.card__imagen{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 340px;
-    height: 340px;
-    margin: 5px 50px;
+.card_imagen{
+    width: 500px;
+    height: 500px;
     border-style:dashed;
     border-color: rgb(231, 231, 87);
     border-width: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    margin-right: 50px;
+    
 }
 .card__titulo--texto{
     color:rgb(251, 251, 79);
     font-size: 20px;
     font-weight: normal;
     text-align:right;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    padding-left: 55px;
 
 }
 .card__subtitulo{
@@ -110,65 +116,6 @@ header{
     height: 150px; 
 }
 
-/* Clase para aplicar formato grueso, bold es negrita y bolder con mas relleno en negrita */
-.negritaNegrita{
-    font-weight: bolder;
-}
-
-/*Clase para formato cursiva*/
-.cursiva{
-    font-style: oblique;
-}
-/* Clase para letra en negro */
-.colorYellow {
-    color: rgb(246, 255, 113);
-}
-
-/*Clase para tamaño de fuente pequeña*/
-.fuentePequeña{
-    font-size: 20px;
-}
-/*Clase para tamaño de fuente grande*/
-.fuenteGrande{
-    font-size: 58px;
-}
-
-/* Se le saca la lista a la lista de navegacion de servicios,productos, etc */
-.listaInicio{
-    list-style-type: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.listaInicio{
-    display: flex;
-    gap: 4px;
-    flex-direction: row;
-    justify-content:end;
-}
-
-/*Clase para tamaño de fuente mediana*/
-.fuenteMediana{
-    font-size: 28px;
-}
-/*Clase para negrita normal*/
-.normalNegrita{
-    font-weight: normal;
-}
-/*Clase para ubicacion de letras a la izquierda*/
-.izquierda{
-    text-align:left ;
-}
-/*Clase para ubicacion de letras a la derecha*/
-.derecha{
-    text-align: right;
-}
-/*Clase para ubicacion de letras centradas*/
-.centrada{
-    text-align: center;
-}
-/*Clase para ubicacion de letras justificada*/
-.justificada{
-    text-align: justify;
-}
 
 h3{
     padding: 0px;
@@ -242,16 +189,12 @@ input:focus {
 }
 
 /*HTML GALERIA */
-#nuestrasDelicias{
-    margin-top: 20px;
-    padding-bottom: px;
-    height: 100px;
-    width: 1250px;
-    font-size: 30px;
+.nuestrasDelicias{
+    font-size: 50px;
     color: rgb(231, 231, 87);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style:normal;
-    text-align:center;
+    text-align:end;
 
 
 }
@@ -399,6 +342,9 @@ footer{
 
 /* REGALOS */
 
+.container-fluid{
+    background-color: transparent;
+}
 
 
 .diadelamigo {
@@ -414,14 +360,14 @@ footer{
 }
 
 .foto_regalos {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+    width: 450px;
+    height: 350px;
     padding: 10px;
     border-style:dashed;
+    margin-right: 50px;
+    margin-bottom: 20px;
     border-color: rgb(246, 255, 113);
     border-width: 5px;
-    align-items: center;
 }
 
 
